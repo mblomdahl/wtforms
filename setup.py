@@ -8,8 +8,9 @@ if sys.version_info < (2, 7):
 
 
 setup(
-    name='WTForms',
-    version='3.0dev',
+    name='WTForms_fork_20180213',
+    version='3.0.dev0',
+    obsoletes=['WTForms'],
     url='http://wtforms.simplecodes.com/',
     license='BSD',
     author='Thomas Johansson, James Crasta',
